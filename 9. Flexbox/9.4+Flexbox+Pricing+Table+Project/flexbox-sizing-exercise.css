@@ -1,0 +1,24 @@
+/* Write your CSS code below to make the blue items size, grow and shrink like the green ones.*/
+
+.container {
+    justify-content: space-between;
+  }
+    
+  .container > * {
+  
+  }
+  
+  .item1 {
+    width: 200px;
+  }
+  
+  .item2 {
+    width: 200px;
+    flex-shrink: 0;
+  }
+  
+  .item3 {
+    width: 400px;
+    flex-shrink: 0;
+  }
+  
